@@ -26,6 +26,10 @@ for (var i = 0; i < risoImagePaths.length; i++) {
   var img = document.createElement("img");
   img.src = risoImagePaths[i];
 
+  if (i === 0) {
+    div.id = "preface";
+  }
+
   div.appendChild(img);
   container.appendChild(div);
 }

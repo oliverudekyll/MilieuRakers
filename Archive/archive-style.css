@@ -1,5 +1,13 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Bold", Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: -.01rem;
+
     padding: 1rem;
     margin: 0;
 
@@ -30,6 +38,8 @@ img {
     height: calc(100dvh - 2rem);
 }
 
+
+
 div.nav-bar {
     position: relative;
     width: min-content;
@@ -45,7 +55,7 @@ div.nav-bar a {
     position: relative;
     width: min-content;
 
-    font-weight: bold;
+    text-decoration: none;
     font-size: 1rem;
     text-align: center;
     white-space: nowrap;
@@ -75,18 +85,60 @@ div.feed {
     justify-content: flex-start;
     align-items: center;
     row-gap: 8rem;
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 div.article img {
     position: relative;
     object-fit: contain;
     width: 100%;
-    max-height: 80dvh;
+    max-height: 90dvh;
 }
 
 div.feed-space {
     position: relative;
     width: 100%;
-    height: 0rem;
+    min-height: 2rem;
+}
 
+/* CAPTIONS */
+
+div.caption-frame {
+    position: fixed;
+    width: 85dvw;
+    height: calc(100dvh - 2rem);
+
+    display: flex;
+    flex-flow: row nowrap;
+    row-gap: 1rem;
+    justify-content: space-between;
+
+    z-index: 10;
+}
+
+div.caption-container {
+    position: relative;
+    height: 100%;
+    width: calc(50% - .5rem);
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+div.caption {
+    position: relative;
+    bottom: 4rem;
+
+    background-color: white;
+}
+
+div.caption p {
+    margin: 0;
+
+    font-size: .75rem;
+    text-transform: uppercase;
 }
