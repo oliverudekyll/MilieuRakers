@@ -96,6 +96,10 @@ div.feed {
 /*     padding-bottom: 4rem; */
 }
 
+div.article {
+    height: calc(100dvh - 2rem);
+}
+
 div.article img {
     position: relative;
     object-fit: contain;
