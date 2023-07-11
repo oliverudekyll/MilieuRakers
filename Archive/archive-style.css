@@ -18,6 +18,9 @@ body {
 
     display: flex;
     justify-content: flex-end;
+
+    min-width: 1200px;
+    overflow-x: hidden;
 }
 
 
@@ -84,7 +87,8 @@ div.nav-bar a:hover {
 div.feed {
     position: absolute;
     width: 85dvw;
-    height: calc(100dvh - 2rem);
+    min-width: 1000px;
+    /* max-height: calc(100dvh - 2rem); */
 
     display: flex;
     flex-flow: column nowrap;
@@ -92,12 +96,14 @@ div.feed {
     align-items: center;
     row-gap: 8rem;
 
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
 /*     padding-bottom: 4rem; */
 }
 
 div.article {
-    height: calc(100dvh - 2rem);
+    height: calc(100dvh - 0rem);
+    display: flex;
+    align-items: center;
 }
 
 div.article img {
@@ -118,6 +124,7 @@ div.feed-space {
 div.caption-frame {
     position: fixed;
     width: 85dvw;
+    min-width: 1000px;
     height: calc(100dvh - 2rem);
 
     display: flex;
@@ -136,14 +143,15 @@ div.caption-container {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    column-gap: 2rem;
 }
 
 div.caption {
     position: relative;
     bottom: 4rem;
 
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
 }
 
 div.caption p {
@@ -151,4 +159,7 @@ div.caption p {
 
     font-size: .75rem;
     text-transform: uppercase;
+
+    background-color: white;
+    white-space: nowrap;
 }
