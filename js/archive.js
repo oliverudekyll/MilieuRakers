@@ -416,6 +416,12 @@ var risoImagePaths = [
       textLeft: ["tombstone for myself", "corroded steel, wood, stone", "luca school of arts", "ghent"],
       textRight: [""],
       id: "" 
+    },
+    {
+      path: "../Archive/Images/Content/Digi/ErikMerisalu-Archive-Digi-56.jpg",
+      textLeft: [""],
+      textRight: [""],
+      id: "" 
     }
 ];
 
