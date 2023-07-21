@@ -8,6 +8,12 @@ var risoImagePaths = [
       id: "preface"
     },
     {
+      path: "../Archive/Images/Content/Digi/ErikMerisalu-Archive-Digi-56.jpg",
+      textLeft: ["ba graduate project", "estonian academy of arts", "2023"],
+      textRight: [""],
+      id: "" 
+    },
+    {
       path: "../Archive/Images/Content/Riso/ErikMerisalu-Archive-Riso-2.jpg",
       textLeft: ["Scans from book"],
       textRight: [""],
@@ -417,12 +423,7 @@ var risoImagePaths = [
       textRight: [""],
       id: "" 
     },
-    {
-      path: "../Archive/Images/Content/Digi/ErikMerisalu-Archive-Digi-56.jpg",
-      textLeft: [""],
-      textRight: [""],
-      id: "" 
-    }
+
 ];
 
 var imgContainer = document.getElementById("feed");
@@ -441,6 +442,23 @@ txtElementR.appendChild(pR);
 
 txtContainerL.appendChild(txtElementL);
 txtContainerR.appendChild(txtElementR);
+
+var logo = document.getElementById("logo");
+
+var logoUrls = [
+  "../Archive/Images/Logos/ErikMerisalu-Website-Logo-1.png",
+  "../Archive/Images/Logos/ErikMerisalu-Website-Logo-2.png"
+]
+
+var currentLogoIndex = 0;
+
+function changeLogo() {
+  logo.src = logoUrls[currentLogoIndex];
+  currentLogoIndex = (currentLogoIndex + 1) % logoUrls.length;
+}
+
+changeLogo();
+setInterval(changeLogo, 1000)
 
 
 for (var i = 0; i < risoImagePaths.length; i++) {

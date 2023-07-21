@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Helvetica Bold";
+    src: url(../Fonts/helvetica-bold.woff);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.bg-video-container {
+    position: fixed;
+    top: 0;
+    object-fit: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    z-index: -1;
+}
+
+#bg-video {
+    position: absolute;
+    object-fit: cover;
+    min-height: 100%;
+    min-width: 100dvw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.nav-bar {
+    position: fixed;
+    width: calc(100dvw - 2rem);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+div.nav-bar a {
+    position: relative;
+    width: min-content;
+
+    font-family: "Helvetica Bold";
+    font-weight: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: -0.02rem;
+    text-align: center;
+    white-space: nowrap;
+
+    color: white;
+
+    cursor: pointer;
+}

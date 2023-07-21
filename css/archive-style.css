@@ -41,9 +41,23 @@ div.sidebar {
     z-index: 10;
 }
 
-img {
+img.sidebar-spine {
     position: absolute;
     height: calc(100dvh - 2rem);
+}
+
+div.logo-container {
+    position: absolute;
+    width: min-content;
+    height: min-content;
+    top: -1rem;
+}
+
+img.logo {
+    position: relative;
+    height: 20vh;
+    width: auto;
+    object-fit: contain;
 }
 
 
@@ -66,6 +80,7 @@ div.nav-bar a {
     text-decoration: none;
     font-size: 1rem;
     line-height: 1rem;
+    letter-spacing: -0.02rem;
     text-align: center;
     white-space: nowrap;
 
