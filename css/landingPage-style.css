@@ -3,17 +3,28 @@
     src: url(../Fonts/helvetica-bold.woff);
 }
 
+@font-face {
+    font-family: "Baskerville Italic";
+    src: url(../Fonts/Baskerville-Italic.woff);
+}
+
 body {
     margin: 0;
     padding: 0;
+    min-width: 850px;
 }
+
+
+
+
 
 div.bg-video-container {
     position: fixed;
     top: 0;
     object-fit: cover;
     min-height: 100vh;
-    min-width: 100vw;
+    width: 100vw;
+    min-width: 850px;
     z-index: -1;
 }
 
@@ -27,9 +38,14 @@ div.bg-video-container {
     transform: translate(-50%, -50%);
 }
 
+
+
+
+
 div.nav-bar {
     position: fixed;
     width: calc(100dvw - 2rem);
+    min-width: 850px;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -43,7 +59,7 @@ div.nav-bar a {
     font-weight: normal;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 1rem;
     letter-spacing: -0.02rem;
     text-align: center;
@@ -52,4 +68,48 @@ div.nav-bar a {
     color: white;
 
     cursor: pointer;
+}
+
+
+
+@keyframes fadeIn {
+    0% {opacity: 0};
+    100% {opacity: 100}
+}
+
+div.title-container {
+    position: relative;
+    height: 100dvh;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-flow: column nowrap;
+
+    animation: fadeIn 3s ease-in-out;
+/*     animation-delay: .2s; */
+/*     transition: opacity, 5s, ease-in; */
+}
+
+object.title {
+    position: relative;
+    width: 50rem;
+    min-width: 400px;
+    padding: 0;
+    margin: 0;
+
+    color: white;
+}
+
+p.subtitle {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-top: 1.3rem;
+    bottom: 2rem;
+
+    color: white;
+    font-family: "Baskerville Italic";
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
 }
