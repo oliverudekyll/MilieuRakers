@@ -52,6 +52,12 @@ div.nav-bar {
     z-index: 10;
 }
 
+div.nav-bar div {
+    position: relative;
+    width: min-content;
+    height: min-content;
+}
+
 div.nav-bar a {
     position: relative;
     width: min-content;
@@ -60,7 +66,7 @@ div.nav-bar a {
     font-weight: normal;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 1.25rem;
+    font-size: 1.25rem; /* 2 || 3 */
     line-height: 1rem;
     letter-spacing: -0.02rem;
     text-align: center;
@@ -184,6 +190,12 @@ p.subtitle {
             justify-content: space-between;
             padding: 1rem;
             z-index: 10;
+        }
+
+        div.nav-bar div {
+            position: relative;
+            width: min-content;
+            height: min-content;
         }
         
         div.nav-bar a {
