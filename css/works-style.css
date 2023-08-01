@@ -38,6 +38,8 @@ div#feed {
     translate: -50%;
 
     padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 div.empty {
