@@ -21,6 +21,9 @@ body {
 
     min-width: 1200px;
     overflow-x: hidden;
+
+    background-color: hsl(0, 0%, 90%);
+
 }
 
 
@@ -58,8 +61,13 @@ img.logo {
     height: 20vh;
     width: auto;
     object-fit: contain;
+
+    transition: transform .1s ease-in-out;
 }
 
+img.logo:hover {
+    transform: scale(.95);
+}
 
 
 div.nav-bar {
@@ -87,6 +95,8 @@ div.nav-bar a {
     color: black;
 
     cursor: pointer;
+
+    transition: background-color .1s ease-in-out;
 }
 
 div.nav-bar a:hover {
