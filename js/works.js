@@ -1,110 +1,110 @@
 var imagePaths = [
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/27/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/milieurakers/Works/Images/27/1.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/27/2.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/27/Preview.jpg"],
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/27/Preview.jpg",
+    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/27/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/27/2.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/27/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/26/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/milieurakers/Works/Images/26/1.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/26/2.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/26/Preview.jpg"],
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/26/Preview.jpg",
+    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/26/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/26/2.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/26/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/25/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/milieurakers/Works/Images/25/1.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/25/Preview.jpg"],
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/25/Preview.jpg",
+    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/25/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/25/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/24/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/milieurakers/Works/Images/24/1.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/24/Preview.jpg"],
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/24/Preview.jpg",
+    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/24/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/24/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/23/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/milieurakers/Works/Images/23/1.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/23/Preview.jpg"],
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/23/Preview.jpg",
+    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/23/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/23/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/22/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/milieurakers/Works/Images/22/1.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/22/2.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/22/Preview.jpg"],
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/22/Preview.jpg",
+    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/22/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/22/2.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/22/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/21/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/milieurakers/Works/Images/21/1.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/21/Preview.jpg"],
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/21/Preview.jpg",
+    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/21/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/21/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/20/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/milieurakers/Works/Images/20/1.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/20/Preview.jpg"],
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/20/Preview.jpg",
+    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/20/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/20/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/19/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/milieurakers/Works/Images/19/1.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/19/Preview.jpg"],
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/19/Preview.jpg",
+    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/19/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/19/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/18/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/milieurakers/Works/Images/18/1.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/18/2.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/18/Preview.jpg"],
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/18/Preview.jpg",
+    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/18/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/18/2.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/18/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/17/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/milieurakers/Works/Images/17/1.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/17/Preview.jpg"],
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/17/Preview.jpg",
+    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/17/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/17/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/16/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/milieurakers/Works/Images/16/1.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/16/2.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/16/Preview.jpg"],
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/16/Preview.jpg",
+    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/16/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/16/2.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/16/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/15/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/milieurakers/Works/Images/15/1.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/15/2.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/15/3.jpg", "https://oliverudekyll.github.io/milieurakers/Works/Images/15/Preview.jpg"],
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/15/Preview.jpg",
+    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/15/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/15/2.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/15/3.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/15/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/14/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/14/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/13/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/13/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/12/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/12/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/11/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/11/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/10/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/10/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/9/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/9/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/8/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/8/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/7/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/7/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/6/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/6/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/5/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/5/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/4/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/4/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/3/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/3/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/2/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/2/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/milieurakers/Works/Images/1/Preview.jpg",
+    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/1/Preview.jpg",
     hover: [],
   }
 ];
@@ -183,8 +183,8 @@ for (var i = 0; i < imageElements.length; i++) {
 var logo = document.getElementById("logo");
 
 var logoUrls = [
-  "https://oliverudekyll.github.io/milieurakers/Archive/Images/Logos/ErikMerisalu-Website-Logo-1.png",
-  "https://oliverudekyll.github.io/milieurakers/Archive/Images/Logos/ErikMerisalu-Website-Logo-2.png"
+  "https://oliverudekyll.github.io/MilieuRakers/Archive/Images/Logos/ErikMerisalu-Website-Logo-1.png",
+  "https://oliverudekyll.github.io/MilieuRakers/Archive/Images/Logos/ErikMerisalu-Website-Logo-2.png"
 ]
 
 var currentLogoIndex = 0;
