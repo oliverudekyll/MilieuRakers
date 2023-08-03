@@ -62,11 +62,11 @@ img.logo {
     width: auto;
     object-fit: contain;
 
-    transition: transform .1s ease-in-out;
+    transition: filter .27s ease-in-out;
 }
 
 img.logo:hover {
-    transform: scale(.95);
+    filter: invert(1);
 }
 
 

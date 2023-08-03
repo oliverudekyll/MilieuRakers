@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: hsl(0, 0%, 90%);
+    background-color: hsl(0, 0%, 0%);
     overflow-x: hidden;
 }
 
@@ -13,12 +13,13 @@ div.logo-wrapper {
 
 img#logo {
     width: 20vh;
+    filter: invert(.7);
 
-    transition: transform, .1s ease-in-out;
+    transition: filter .27s ease-in-out;
 }
 
 img#logo:hover {
-    transform: scale(.95);
+    filter: invert(.9);
 }
 
 div#feed {
@@ -45,7 +46,7 @@ div#feed {
 div.empty {
     position: relative;
     width: 50dvw;
-    height: 20dvw;
+    height: 10dvw;
     flex-basis: 100%;
 }
 
@@ -63,6 +64,9 @@ div.article:hover {
 
 div.article:hover img{
     transform: scale(1.1);
+    filter: grayscale(0) brightness(1);
+
+    box-shadow: rgba(0, 0, 0, 0.7) 3px 3px 50px 0px;
 }
 
 /*     div#feed div.article:nth-child(4n + 1) img {
@@ -97,11 +101,11 @@ div.article img {
     height: 100%;
     max-height: 50dvh;
     max-width: 50dvw;
-    margin-right: -2rem;
+    margin-right: -5rem;
     margin-bottom: -5rem;
     padding: 0;
-    filter: grayscale(1);
-    transition: transform .1s, filter 1.7s;
+    filter: grayscale(.5) brightness(0.7);
+    transition: transform .1s, filter .2s;
     transition-timing-function: ease-in-out;
     
 }
@@ -119,6 +123,7 @@ div.article img {
     z-index: 999;
 
     overflow: none;
+    cursor: zoom-out;
   }
   
   .quick-view-image {

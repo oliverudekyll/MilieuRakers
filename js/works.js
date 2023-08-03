@@ -1,110 +1,110 @@
 var imagePaths = [
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/27/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/27/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/27/2.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/27/Preview.jpg"],
+    preview: "../Works/Images/27/Preview.jpg",
+    hover: ["../Works/Images/27/1.jpg", "../Works/Images/27/2.jpg", "../Works/Images/27/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/26/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/26/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/26/2.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/26/Preview.jpg"],
+    preview: "../Works/Images/26/Preview.jpg",
+    hover: ["../Works/Images/26/1.jpg", "../Works/Images/26/2.jpg", "../Works/Images/26/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/25/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/25/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/25/Preview.jpg"],
+    preview: "../Works/Images/25/Preview.jpg",
+    hover: ["../Works/Images/25/1.jpg", "../Works/Images/25/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/24/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/24/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/24/Preview.jpg"],
+    preview: "../Works/Images/24/Preview.jpg",
+    hover: ["../Works/Images/24/1.jpg", "../Works/Images/24/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/23/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/23/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/23/Preview.jpg"],
+    preview: "../Works/Images/23/Preview.jpg",
+    hover: ["../Works/Images/23/1.jpg", "../Works/Images/23/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/22/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/22/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/22/2.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/22/Preview.jpg"],
+    preview: "../Works/Images/22/Preview.jpg",
+    hover: ["../Works/Images/22/1.jpg", "../Works/Images/22/2.jpg", "../Works/Images/22/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/21/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/21/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/21/Preview.jpg"],
+    preview: "../Works/Images/21/Preview.jpg",
+    hover: ["../Works/Images/21/1.jpg", "../Works/Images/21/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/20/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/20/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/20/Preview.jpg"],
+    preview: "../Works/Images/20/Preview.jpg",
+    hover: ["../Works/Images/20/1.jpg", "../Works/Images/20/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/19/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/19/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/19/Preview.jpg"],
+    preview: "../Works/Images/19/Preview.jpg",
+    hover: ["../Works/Images/19/1.jpg", "../Works/Images/19/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/18/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/18/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/18/2.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/18/Preview.jpg"],
+    preview: "../Works/Images/18/Preview.jpg",
+    hover: ["../Works/Images/18/1.jpg", "../Works/Images/18/2.jpg", "../Works/Images/18/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/17/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/17/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/17/Preview.jpg"],
+    preview: "../Works/Images/17/Preview.jpg",
+    hover: ["../Works/Images/17/1.jpg", "../Works/Images/17/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/16/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/16/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/16/2.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/16/Preview.jpg"],
+    preview: "../Works/Images/16/Preview.jpg",
+    hover: ["../Works/Images/16/1.jpg", "../Works/Images/16/2.jpg", "../Works/Images/16/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/15/Preview.jpg",
-    hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/15/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/15/2.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/15/3.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/15/Preview.jpg"],
+    preview: "../Works/Images/15/Preview.jpg",
+    hover: ["../Works/Images/15/1.jpg", "../Works/Images/15/2.jpg", "../Works/Images/15/3.jpg", "../Works/Images/15/Preview.jpg"],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/14/Preview.jpg",
+    preview: "../Works/Images/14/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/13/Preview.jpg",
+    preview: "../Works/Images/13/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/12/Preview.jpg",
+    preview: "../Works/Images/12/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/11/Preview.jpg",
+    preview: "../Works/Images/11/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/10/Preview.jpg",
+    preview: "../Works/Images/10/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/9/Preview.jpg",
+    preview: "../Works/Images/9/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/8/Preview.jpg",
+    preview: "../Works/Images/8/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/7/Preview.jpg",
+    preview: "../Works/Images/7/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/6/Preview.jpg",
+    preview: "../Works/Images/6/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/5/Preview.jpg",
+    preview: "../Works/Images/5/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/4/Preview.jpg",
+    preview: "../Works/Images/4/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/3/Preview.jpg",
+    preview: "../Works/Images/3/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/2/Preview.jpg",
+    preview: "../Works/Images/2/Preview.jpg",
     hover: [],
   },
   {
-    preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/1/Preview.jpg",
+    preview: "../Works/Images/1/Preview.jpg",
     hover: [],
   }
 ];
@@ -136,7 +136,7 @@ for (var i = 0; i < imagePaths.length; i++) {
     for (var i = 0; i < imagePaths.length; i++) {
         var image = document.getElementById("id-" + i);
 
-        var randomTranslateX = Math.floor(Math.random() * 20) - 10;
+        var randomTranslateX = Math.floor(Math.random() * 10) - 5;
         var randomTranslateY = Math.floor(Math.random() * 50) - 25; 
 
         if (image) {
@@ -183,8 +183,8 @@ for (var i = 0; i < imageElements.length; i++) {
 var logo = document.getElementById("logo");
 
 var logoUrls = [
-  "https://oliverudekyll.github.io/MilieuRakers/Archive/Images/Logos/ErikMerisalu-Website-Logo-1.png",
-  "https://oliverudekyll.github.io/MilieuRakers/Archive/Images/Logos/ErikMerisalu-Website-Logo-2.png"
+  "../Archive/Images/Logos/ErikMerisalu-Website-Logo-1.png",
+  "../Archive/Images/Logos/ErikMerisalu-Website-Logo-2.png"
 ]
 
 var currentLogoIndex = 0;
@@ -262,7 +262,7 @@ function animateOnScroll() {
 
     // Check if the item is in the viewport
     if (itemTop < windowHeight) {
-      item.style.filter = "grayscale(0)";
+      item.style.filter = "grayscale0)";
     }
   });
 }

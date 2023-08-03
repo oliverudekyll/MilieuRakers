@@ -4,38 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Erik Merisalu</title>
-<!--     <script src="https://oliverudekyll.github.io/MilieuRakers/js/landing-page.js" defer></script> -->
-    <link rel="stylesheet" type="text/css" href="https://oliverudekyll.github.io/MilieuRakers/css/landingPage-style.css"/>    
+<!--     <script src="../js/landing-page.js" defer></script> -->
+    <link rel="stylesheet" type="text/css" href="../css/landingPage-style.css"/>  
+    <script src="../js/landing-page.js" defer></script>  
 </head>
 <body>
-    <div class="bg-video-container">
-        <img class="interlace" src="https://oliverudekyll.github.io/MilieuRakers/Images/ErikMerisalu-Website-LandingPage-Interlace.png">
-        <!-- <div class="grey"></div> -->
-        <video autoplay muted loop playsinline id="bg-video">
-            <source src="https://oliverudekyll.github.io/MilieuRakers/Images/ErikMerisalu-LandingPage-Video.mov" type="video/mp4">
-        </video>
+
+<!--     <div class="background">
+        <img src="../Images/ErikMerisalu-LandingPage-Background.jpg">
+    </div>
+ -->
+
+    <div id="intro">
+        <p>
+            Erik Merisalu 
+            <br>
+            <b>Jewellery</b>
+        </p>
     </div>
 
-    <div class="nav-bar">
-        <div>
-            <a href="mailto:erik.merisalu@me.com">Contact</a>
+    <div class="main-container">
+        
+        <div class="sidebar-container-clone">
+            <!-- CLONE -->
         </div>
-        <div>
-            <a href="https://oliverudekyll.github.io/MilieuRakers/Works/Works.html">Works</a>
-        </div>
-        <div>
-            <a href="https://oliverudekyll.github.io/MilieuRakers/Archive/Archive.html">Archive</a>
+
+
+        <div class="video-container">
+            <video autoplay muted loop playsinline id="video">
+                <source src="../Images/ErikMerisalu-LandingPage-Video.mov" type="video/mp4">
+            </video>
+
+            <div id="feed">
+                <div class="empty"></div>
+            </div>
         </div>
     </div>
 
-    <div class="title-container" id="title-container">
-        <div class="title-flex">
-            <object class="title" data="https://oliverudekyll.github.io/MilieuRakers/Images/ErikMerisalu-Website-LandingPage-Title.svg"></object>
-<!--             <p class="subtitle">
-                Jewellery
-            </p> -->
+    <div class="sidebar-container">
+        <div class="logo-wrapper">
+            <img id="logo" src="">
+        </div>
+        
+        <div class="nav-bar">
+            <div>
+                <a id="works">
+                    Works
+                    <img class="hover-image" id="worksOverlay" src="../Images/Hover-Images/1.png">
+                </a>
+            </div>
+            <div>
+                <a href="../Archive/Archive.html">
+                    Archive
+                    <img class="hover-image" src="../Images/Hover-Images/2.png">
+                </a>
+            </div>
+            <div>
+                <a id="contactButton">
+                    Contact
+                    <img class="hover-image" src="../Images/Hover-Images/1.png">
+                </a>
+            </div>
         </div>
     </div>
+
 
 
 </body>
