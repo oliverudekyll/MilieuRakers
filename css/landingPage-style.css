@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Helvetica Bold";
-    src: url(../Fonts/helvetica-bold.woff);
+    src: url(https://oliverudekyll.github.io/MilieuRakers/Fonts/helvetica-bold.woff);
 }
 
 @font-face {
     font-family: "Baskerville Italic";
-    src: url(../Fonts/Baskerville-Italic.woff);
+    src: url(https://oliverudekyll.github.io/MilieuRakers/Fonts/Baskerville-Italic.woff);
 }
 
 body {
