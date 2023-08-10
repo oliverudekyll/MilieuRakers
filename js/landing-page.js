@@ -14,6 +14,7 @@ var imagePaths = [
     {
       preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/24/Preview.jpg",
       hover: ["https://oliverudekyll.github.io/MilieuRakers/Works/Images/24/1.jpg", "https://oliverudekyll.github.io/MilieuRakers/Works/Images/24/Preview.jpg"],
+      zIndex: "200"
     },
     {
       preview: "https://oliverudekyll.github.io/MilieuRakers/Works/Images/23/Preview.jpg",
@@ -121,7 +122,9 @@ var imagePaths = [
       img.className = "works";
       imgDiv.id = "id-" + i;
   
-  
+      if (imagePaths[i].hasOwnProperty("zIndex")) {
+        imgDiv.style.zIndex = imagePaths[i].zIndex;
+      }
     
       imgDiv.appendChild(img);
       imgContainer.appendChild(imgDiv);
@@ -138,15 +141,40 @@ var imagePaths = [
   
           var randomTranslateX = Math.floor(Math.random() * 20) - 10;
           var randomTranslateY = Math.floor(Math.random() * 60) - 30;
-  
+
           if (image) {
-              image.style.transform = `translate(${randomTranslateX}%, ${randomTranslateY}%)`;
+            image.style.transform = `translate(${randomTranslateX}%, ${randomTranslateY}%)`;
           }
       }
   };
+
+  var mobileDisplace = function() {
+    for (var i = 0; i < imagePaths.length; i++) {
+        var image = document.getElementById("id-" + i);
+
+        var mobileRandomTranslateX = Math.floor(Math.random() * 15) - 7;
+        var mobileRandomTranslateY = Math.floor(Math.random() * 10) - 5;
+
+        if (image) {
+            image.style.transform = `translate(${mobileRandomTranslateX}%, ${mobileRandomTranslateY}%)`;
+        }
+    }
+};
   
   document.addEventListener("DOMContentLoaded", function () {
+    if (window.innerWidth <= 850) {
+      mobileDisplace();
+    } else {
       displace();
+    }
+    
+    window.addEventListener("resize", function() {
+      if (window.innerWidth <= 850) {
+        mobileDisplace();
+      } else {
+        displace();
+      }
+      })
   });
   
   var imageElements = document.querySelectorAll("#feed img");
@@ -166,7 +194,7 @@ var imagePaths = [
           currentImageIndex = (currentImageIndex + 1) % hoverImages.length;
         }
   
-        var interval = setInterval(cycleImages, 750);
+        var interval = setInterval(cycleImages, 1000);
   
         image.addEventListener("mouseout", function () {
           clearInterval(interval);
@@ -312,12 +340,20 @@ document.addEventListener("DOMContentLoaded", function() {
         email.href = "mailto:erikmerisalu@me.com";
         email.className = "quick-view-contact-buttons";
         email.textContent = "Email";
+        var hoverImageEmail = document.createElement("img");
+        hoverImageEmail.src = "https://oliverudekyll.github.io/MilieuRakers/Images/Hover-Images/4.png";
+        hoverImageEmail.className = "hover-image";
 
         var instagram = document.createElement("a");
         instagram.href = "https://www.instagram.com/erjjek/";
         instagram.className = "quick-view-contact-buttons";
         instagram.textContent = "Instagram";
+        var hoverImageIG = document.createElement("img");
+        hoverImageIG.src = "https://oliverudekyll.github.io/MilieuRakers/Images/Hover-Images/2.png";
+        hoverImageIG.className = "hover-image";
     
+        email.appendChild(hoverImageEmail);
+        instagram.appendChild(hoverImageIG);
         quickViewContactContainer.appendChild(instagram);
         quickViewContactContainer.appendChild(email);
         quickViewOverlay.appendChild(quickViewContactContainer);

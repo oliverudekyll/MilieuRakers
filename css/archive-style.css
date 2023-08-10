@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Helvetica Bold";
-    src: url(../Fonts/helvetica-bold.woff);
+    src: url(https://oliverudekyll.github.io/MilieuRakers/Fonts/helvetica-bold.woff);
 }
 
 html {
@@ -61,12 +61,13 @@ img.logo {
     height: 20vh;
     width: auto;
     object-fit: contain;
+    mix-blend-mode: overlay;
 
-    transition: filter .27s ease-in-out;
+/*     transition: filter .27s ease-in-out; */
 }
 
 img.logo:hover {
-    filter: invert(1);
+    mix-blend-mode: normal;
 }
 
 
@@ -96,7 +97,7 @@ div.nav-bar a {
 
     cursor: pointer;
 
-    transition: background-color .1s ease-in-out;
+/*     transition: background-color .1s ease-in-out; */
 }
 
 div.nav-bar a:hover {

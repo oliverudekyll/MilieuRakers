@@ -260,7 +260,6 @@ function animateOnScroll() {
     var itemTop = item.getBoundingClientRect().top;
     var windowHeight = window.innerHeight;
 
-    // Check if the item is in the viewport
     if (itemTop < windowHeight) {
       item.style.filter = "grayscale0)";
     }
